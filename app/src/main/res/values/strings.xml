@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NgodingLah</string>
+    <string name="profile">Profile</string>
+    <string name="bahasa_pemrograman">Bahasa Pemrograman</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="detail">Detail</string>
+    <string name="bahasa_pemrograman_detail">Bahasa Pemrograman :</string>
+    <string name="deskripsi_detail">Deskripsi :</string>
+    <string name="tahun_rilis">Tahun Rilis</string>
+</resources>

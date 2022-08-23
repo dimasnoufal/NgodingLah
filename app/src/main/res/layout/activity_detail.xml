@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/grey_agak_putih"
+        android:backgroundTint="@color/grey_agak_putih"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_logo_detail"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_nama_bahasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_logo_detail"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="17dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/bahasa_pemrograman_detail"
+                android:textColor="@color/grey_tua"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_username_bahasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nama_bahasa"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/bahasa_pemrograman"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_deskripsi_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_username_bahasa"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/deskripsi_detail"
+                android:textColor="@color/grey_tua"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_deskripsi_bahasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_deskripsi_detail"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/deskripsi"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_tahun_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_deskripsi_bahasa"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/tahun_rilis"
+                android:textColor="@color/grey_tua"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_tahun_rilis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_tahun_detail"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/tahun_rilis"
+                android:textSize="13sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
