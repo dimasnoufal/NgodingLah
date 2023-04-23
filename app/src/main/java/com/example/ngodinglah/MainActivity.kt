@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         rvBahasaPemrograman.setHasFixedSize(true)
 
         list.addAll(BahasaPemrogramanData.listData)
-        showRecyclerList()
+            showRecyclerList()
 
     }
 
